@@ -1,25 +1,71 @@
-*,
-*::before,
-*::after {
+/* Estilos Globais */
+body {
+    font-family: 'Pacifico', cursive;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
 }
-
-html {
-font-size: 62.5%;
-font-family: sans-serif;
-scroll-behavior: smooth;
-}
-
 body {
-    font-size: 1.6rem;
-    background: #f89ad1;
-    color: 3ff0095;
+    background-image:
+    url('doces.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.logo {
-    
+/* Cabeçalho */
+header {
+    background-color: #ffccff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #660066;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #660066;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção Inicial */
+.welcome {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Seções */
+.about, .gallery, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Galeria */
+.gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ffccff;
+    text-align: center;
+    padding: 10px;
+    color: #660066;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
